@@ -47,6 +47,17 @@ This project predicts **customer satisfaction ratings** from support ticket data
 
 ---
 
+## 📈 Model Summary
+
+| Component     | Details                        |
+| ------------- | ------------------------------ |
+| Model         | Random Forest Classifier       |
+| Accuracy      | \~XX% (Add once finalized)     |
+| Text Features | TF-IDF vectorized ticket text  |
+| NLP Add-ons   | Sentiment analysis, LDA topics |
+
+---
+
 ## 🚀 Run the Project
 
 ### 🧪 1. Train the model
