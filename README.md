@@ -1,46 +1,82 @@
 # 📊 Customer Satisfaction Prediction
 
-This project predicts customer satisfaction ratings using support ticket data. It uses:
-- Text descriptions
-- Structured features (age, product, priority)
-- Topic modeling
-- Sentiment analysis
+![Banner](https://imgur.com/EOJdBME.png)
+
+[![Status](https://img.shields.io/badge/Project-Complete-brightgreen)]()
+[![Streamlit](https://img.shields.io/badge/UI-Streamlit-orange)](https://streamlit.io/)
+[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
-## 🔧 Files Included
+## 📚 Table of Contents
+- [📊 Overview](#-overview)
+- [📁 Files Included](#-files-included)
+- [🚀 Run the Project](#-run-the-project)
+- [📈 Model Summary](#-model-summary)
+- [🙌 Credits](#-credits)
+- [📄 License](#-license)
 
-| File                           | Description                                |
-|--------------------------------|--------------------------------------------|
-| `customer_support_tickets.csv` | Raw support tickets dataset                |
-| `ticket_topics.csv`            | Topics assigned using LDA                  |
-| `final_predictions.csv`        | Model predictions with topics              |
-| `hybrid_model_with_topics.pkl` | Trained RandomForest model                 |
-| `tfidf_vectorizer_with_topics.pkl` | TF-IDF vectorizer                   |
-| `train_model_with_topics.py`   | Full training + export script              |
-| `app.py`                       | Streamlit interface                        |
-| `Customer_Satisfaction_Summary.ipynb` | Final analysis notebook            |
+---
+
+## 📊 Overview
+
+This project predicts **customer satisfaction ratings** from support ticket data by combining:
+
+- ✍️ Text descriptions of issues (TF-IDF vectorized)
+- 🔢 Structured features (age, product, priority, etc.)
+- 🧠 Topic modeling (LDA) to group common issues
+- 💬 Sentiment analysis with VADER
+- 🎯 Random Forest classifier for prediction
+- 🖼️ Streamlit app for real-time interaction
+
+---
+
+## 📁 Files Included
+
+| File                                | Description                              |
+|-------------------------------------|------------------------------------------|
+| `customer_support_tickets.csv`      | Original support tickets dataset         |
+| `ticket_topics.csv`                 | Topics assigned using LDA modeling       |
+| `final_predictions.csv`             | Dataset with model predictions           |
+| `hybrid_model_with_topics.pkl`      | Trained Random Forest model              |
+| `tfidf_vectorizer_with_topics.pkl`  | TF-IDF vectorizer for ticket text        |
+| `train_model_with_topics.py`        | Training + model export script           |
+| `app.py`                            | Streamlit web app                        |
+| `Customer_Satisfaction_Summary.ipynb` | Final exploratory notebook             |
 
 ---
 
 ## 🚀 Run the Project
 
-### 1. Train the model
+### 🧪 1. Train the model
 ```bash
 python train_model_with_topics.py
-```
 
-### 2. Run Streamlit App
-```bash
-streamlit run app.py
-```
+🌐 2. Launch Streamlit app
 
----
+The app allows you to:
 
-## 📊 Summary
+Paste a ticket description
 
-This end-to-end machine learning project showcases:
-- NLP (TF-IDF, sentiment)
-- Topic modeling
-- Classification
-- App deployment using Streamlit
+Choose age, priority, product
+
+Get prediction + topic + sentiment live
+
+📈 Model Summary
+
+Component	Details
+Model	Random Forest Classifier
+Accuracy	~XX% (Add once finalized)
+Text Features	TF-IDF vectorized ticket text
+NLP Add-ons	Sentiment analysis, LDA topics
+
+🙌 Credits
+Built by Vishal Yadav
+
+📄 License
+Licensed under the MIT License
+
+
+
+
