@@ -1,6 +1,6 @@
 # 📊 Customer Satisfaction Prediction
 
-![Banner](banner.png)
+![Banner](banner)
 
 [![Status](https://img.shields.io/badge/Project-Complete-brightgreen)]()
 [![Streamlit](https://img.shields.io/badge/UI-Streamlit-orange)](https://streamlit.io/)
