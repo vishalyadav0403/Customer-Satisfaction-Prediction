@@ -21,7 +21,7 @@
 
 ## 📊 Overview
 
-This project predicts **customer satisfaction ratings** from support ticket data by combining:
+This project predicts **customer satisfaction ratings** from support ticket data using:
 
 - ✍️ Text descriptions of issues (TF-IDF vectorized)
 - 🔢 Structured features (age, product, priority, etc.)
@@ -50,32 +50,35 @@ This project predicts **customer satisfaction ratings** from support ticket data
 ## 🚀 Run the Project
 
 ### 🧪 1. Train the model
+
 ```bash
 python train_model_with_topics.py
 
+---
+
 ## 🌐 2. Launch Streamlit app
 
+streamlit run app.py
+
 The app allows you to:
-
 Paste a ticket description
-
 Choose age, priority, product
-
 Get prediction + topic + sentiment live
 
+---
 ## 📈 Model Summary
 
-Component	Details
-Model	Random Forest Classifier
-Accuracy	~XX% (Add once finalized)
-Text Features	TF-IDF vectorized ticket text
-NLP Add-ons	Sentiment analysis, LDA topics
+| Component     | Details                        |
+| ------------- | ------------------------------ |
+| Model         | Random Forest Classifier       |
+| Accuracy      | \~XX% (Add once finalized)     |
+| Text Features | TF-IDF vectorized ticket text  |
+| NLP Add-ons   | Sentiment analysis, LDA topics |
+
+---
 
 ## 🙌 Credits
 Built by Vishal Yadav
-
-📄 License
-Licensed under the MIT License
 
 
 
