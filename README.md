@@ -53,7 +53,7 @@ This project predicts **customer satisfaction ratings** from support ticket data
 ```bash
 python train_model_with_topics.py
 
-🌐 2. Launch Streamlit app
+### 🌐 2. Launch Streamlit app
 
 The app allows you to:
 
@@ -63,7 +63,7 @@ Choose age, priority, product
 
 Get prediction + topic + sentiment live
 
-📈 Model Summary
+### 📈 Model Summary
 
 Component	Details
 Model	Random Forest Classifier
@@ -71,7 +71,7 @@ Accuracy	~XX% (Add once finalized)
 Text Features	TF-IDF vectorized ticket text
 NLP Add-ons	Sentiment analysis, LDA topics
 
-🙌 Credits
+### 🙌 Credits
 Built by Vishal Yadav
 
 📄 License
