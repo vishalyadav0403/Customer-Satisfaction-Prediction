@@ -1,11 +1,12 @@
 # 📊 Customer Satisfaction Prediction
 
-![Banner](https://imgur.com/EOJdBME.png)
+![Banner](banner.png)
 
 [![Status](https://img.shields.io/badge/Project-Complete-brightgreen)]()
 [![Streamlit](https://img.shields.io/badge/UI-Streamlit-orange)](https://streamlit.io/)
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 ---
 
