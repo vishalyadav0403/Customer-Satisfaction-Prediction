@@ -56,7 +56,7 @@ python train_model_with_topics.py
 
 ---
 
-## **🌐 2. Launch Streamlit app**
+🌐 2. Launch Streamlit app
 
 streamlit run app.py
 
@@ -66,7 +66,7 @@ Choose age, priority, product
 Get prediction + topic + sentiment live
 
 ---
-## **📈 Model Summary**
+📈 Model Summary
 
 | Component     | Details                        |
 | ------------- | ------------------------------ |
@@ -77,7 +77,7 @@ Get prediction + topic + sentiment live
 
 ---
 
-## **🙌 Credits**
+🙌 Credits
 Built by Vishal Yadav
 
 
