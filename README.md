@@ -1,12 +1,11 @@
 # 📊 Customer Satisfaction Prediction
 
-![Banner](assets/banner.png)
+![Banner](banner.png)
 
 [![Status](https://img.shields.io/badge/Project-Complete-brightgreen)]()
 [![Streamlit](https://img.shields.io/badge/UI-Streamlit-orange)](https://streamlit.io/)
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 
 ---
 
@@ -48,33 +47,45 @@ This project predicts **customer satisfaction ratings** from support ticket data
 
 ---
 
+## 🚀 Run the Project
+
+### 🧪 1. Train the Model
+```bash
+python train_model_with_topics.py
+```
+
+---
+
+### 🌐 2. Launch Streamlit App
+```bash
+streamlit run app.py
+```
+
+#### The app allows you to:
+- Paste a ticket description  
+- Choose customer age, ticket priority, and product  
+- Get prediction + topic + sentiment output (in real-time)
+
+---
+
 ## 📈 Model Summary
 
 | Component     | Details                        |
-| ------------- | ------------------------------ |
+|---------------|--------------------------------|
 | Model         | Random Forest Classifier       |
-| Accuracy      | \~XX% (Add once finalized)     |
+| Accuracy      | ~XX% (update after evaluation) |
 | Text Features | TF-IDF vectorized ticket text  |
 | NLP Add-ons   | Sentiment analysis, LDA topics |
 
 ---
 
-## 🚀 Run the Project
+## 🙌 Credits
 
-### 🧪 1. Train the model
-
-```bash
-python train_model_with_topics.py
----
-
-🌐 2. Launch Streamlit app
-
-streamlit run app.py
-
-The app allows you to:
-Paste a ticket description
-Choose age, priority, product
-Get prediction + topic + sentiment live
+Built by **Vishal Yadav**  
+Part of an internship-level Machine Learning / Data Analysis / NLP project.
 
 ---
 
+## 📄 License
+
+Licensed under the [MIT License](LICENSE).
